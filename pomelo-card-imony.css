@@ -29,15 +29,17 @@
   
   .card {
     background: linear-gradient(-45deg, rgb(255, 110, 0) 0%, rgb(255, 162, 58) 100%);
-    border-radius: 16px;
-    margin: 0;
-    padding: 16px;
-    max-width: 660px;
-    height: 181px;
+    border-radius: 12px;
+    margin: 16px;
+    width: 328px;
+    height: 202px;
+    background-image: url(https://raw.githubusercontent.com/aurisolado/pomelo-styles/main/bg_imony.jpg);
+    background-size: cover;
+    background-position: center;
   }
   
   .card:before {
-    content: url(https://raw.githubusercontent.com/aurisolado/pomelo-styles/main/bg_imony.jpg);
+    content: url(https://raw.githubusercontent.com/aurisolado/pomelo-styles/main/iMonyBlanco.png);
     position: absolute;
     right: 16px;
     top: 0.65rem;

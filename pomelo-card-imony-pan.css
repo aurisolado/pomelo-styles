@@ -11,6 +11,7 @@
   position: relative;
   margin: auto;
   background: #F4F6FB;
+  box-shadow: none;
 }
 
 .list,
@@ -24,6 +25,7 @@
   justify-content: center;
   letter-spacing: 1.1px;
   font-weight: 400;
+  margin: 0px;
 }
 
 .list .pan,
@@ -34,7 +36,11 @@
 .list .pan .wrapper .copy-icon {
   height: 25px;
   width: 25px;
-  margin-left: 5px
+  margin-left: 5px;
+  color: #4500E3;
+  position: absolute;
+  right: 80px;
+  top: calc(50% - 14px);
 }
 
 .list .pan .label {
@@ -284,6 +290,18 @@
   border-top-color: #e61e66;
   border-radius: 50%;
   animation: button-loading-spinner 1s ease infinite
+}
+
+.list .pan .wrapper::before {
+  content: 'Copiar';
+  position: absolute;
+  width: 62px;
+  height: 24px;
+  right: 16px;
+  margin: auto;
+  color: #4500E3;
+  font-weight: 700;
+  top: calc(50% - 13px);
 }
 
 @keyframes button-loading-spinner {

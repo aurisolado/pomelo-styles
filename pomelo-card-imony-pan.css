@@ -2,7 +2,7 @@
 @import"https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap";
 
 .list {
-  width: 300px;
+  width: auto;
   background: 0 0;
   justify-content: end;
   align-items: normal;

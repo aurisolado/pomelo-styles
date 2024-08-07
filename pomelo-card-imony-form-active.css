@@ -1,0 +1,325 @@
+@import"https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap";
+@import"https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap";
+
+.list {
+  width: auto;
+  background: 0 0;
+  justify-content: end;
+  align-items: normal;
+  border-radius: 8px;
+  padding: 16px 12px 16px 12px;
+  position: relative;
+  margin: auto;
+  background: #F4F6FB;
+  box-shadow: none;
+}
+
+.list,
+.list .pan {
+  flex-direction: column
+}
+
+.list .pan {
+  color: #333333;
+  font-size: 16px;
+  justify-content: center;
+  letter-spacing: 1.1px;
+  font-weight: 400;
+  margin: 0px;
+}
+
+.list .pan,
+.list .pan .wrapper {
+  display: flex
+}
+
+.list .pan .wrapper .copy-icon {
+  height: 25px;
+  width: 25px;
+  margin-left: 5px;
+  color: #4500E3;
+  position: absolute;
+  right: 80px;
+  top: calc(50% - 14px);
+}
+
+.list .pan .label {
+  font-size: 14px;
+  margin-top: 2px;
+  letter-spacing: normal;
+  text-transform: none;
+  color: #333333;
+  line-height: 18px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.list .name {
+  color: #333;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: .025em;
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 46px
+}
+
+.list .name .label {
+  font-size: 14px;
+  margin-top: 2px;
+  letter-spacing: normal;
+  text-transform: none;
+  color: #4a4a4a
+}
+
+.list .expiration-date {
+  color: #333;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 46px
+}
+
+.list .expiration-date .label {
+  font-size: 14px;
+  margin-top: 2px;
+  letter-spacing: normal;
+  text-transform: none;
+  color: #4a4a4a
+}
+
+.list .security-code {
+  color: #333;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column
+}
+
+.list .security-code .label {
+  margin-top: 2px
+}
+
+.list .pin,
+.list .security-code .label {
+  font-size: 14px;
+  letter-spacing: normal;
+  text-transform: none;
+  color: #4a4a4a
+}
+
+.list .pin {
+  margin-top: 46px
+}
+
+.list .pin .label {
+  font-size: 14px;
+  margin-top: 2px;
+  letter-spacing: normal;
+  text-transform: none;
+  color: #4a4a4a
+}
+
+.list .cvv-expiration-time {
+  margin: 0 0 46px
+}
+
+.list .cvv-expiration-time,
+.list .cvv-expiration-time .label {
+  font-size: 12px;
+  letter-spacing: normal;
+  text-transform: none;
+  color: #4a4a4a
+}
+
+.list .cvv-expiration-time .label {
+  margin-top: 2px
+}
+
+.card {
+  height: 12rem;
+  max-height: 192px;
+  max-width: 324px;
+  background: 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: normal;
+  border-radius: 8px;
+  box-shadow: 6px 7px 17px -1px #ced4da;
+  padding: 16px 32px;
+  position: relative;
+  margin: auto
+}
+
+.card .pan {
+  color: #000;
+  font-size: min(5vw, 20px);
+  display: flex;
+  justify-content: center;
+  letter-spacing: .1em;
+  margin: 0 0 0 min(8vw, 30px);
+  white-space: nowrap
+}
+
+.card .pan .copy-icon {
+  height: min(8vw, 30px);
+  width: min(8vw, 30px);
+  margin-left: min(2vw, 5px)
+}
+
+.card .name {
+  color: #000;
+  font-size: 14px;
+  display: flex;
+  justify-content: flex-start;
+  text-transform: uppercase;
+  letter-spacing: .025em;
+  margin: 0 0 0 8px
+}
+
+.card .exp-code-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: .5rem;
+  margin: 0
+}
+
+.card .expiration-date,
+.card .pin,
+.card .security-code {
+  color: #000;
+  font-size: 14px;
+  margin: 0
+}
+
+.card .pin {
+  display: flex;
+  justify-content: flex-end
+}
+
+.card .cvv-expiration-time {
+  font-size: 14px;
+  letter-spacing: normal;
+  text-transform: none;
+  color: #4a4a4a;
+  margin: 0 0 46px
+}
+
+.activation-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: normal;
+  position: relative;
+  margin: auto;
+  padding: 16px 32px;
+  height: auto
+}
+
+.activation-form .pan-input,
+.activation-form .pin-input {
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+  margin: 5px;
+  border: 1px solid #333;
+  width: 100%;
+  border-radius: 4px;
+  font-size: 1rem
+}
+
+.activation-form .error-field {
+  margin: 5px;
+  padding-left: 5px;
+  color: #ff3b30
+}
+
+.activation-form .submit-button {
+  cursor: pointer;
+  margin: 10px 5px 5px;
+  font-family: poppins, nunito, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  justify-content: center;
+  color: #e61e66;
+  background: 0 0;
+  border: none;
+  order: 0;
+  flex-grow: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none
+}
+
+.activation-form .submit-button:disabled {
+  color: #4a4a4a
+}
+
+.activation-form .pan-input:focus,
+.activation-form .pin-input,
+.activation-form .submit-button:focus-visible {
+  outline: none
+}
+
+.copy-icon {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none
+}
+
+.copy-icon:active {
+  color: gray
+}
+
+.submit-button-loading:after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border: 4px solid transparent;
+  border-top-color: #e61e66;
+  border-radius: 50%;
+  animation: button-loading-spinner 1s ease infinite
+}
+
+.list .pan .wrapper::before {
+  content: 'Copiar';
+  position: absolute;
+  width: 62px;
+  height: 24px;
+  right: 16px;
+  margin: auto;
+  color: #4500E3;
+  font-weight: 700;
+  top: calc(50% - 13px);
+}
+
+@keyframes button-loading-spinner {
+  0% {
+    transform: rotate(0turn)
+  }
+
+  to {
+    transform: rotate(1turn)
+  }
+}
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+  font-family: poppins, nunito, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif
+}
+
+
+

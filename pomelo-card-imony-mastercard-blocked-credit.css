@@ -12,7 +12,7 @@ div#__next {
 }
 
 div#__next::before {
-  content: 'Bloqueda';
+  content: 'Bloqueada';
   background: #D42121;
   border-radius: 16px;
   font-size: 12px;

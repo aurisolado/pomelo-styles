@@ -305,7 +305,7 @@
 }
 
 .list .pan .wrapper::before {
-  content: 'Copiar';
+  content: '';
   position: absolute;
   width: 62px;
   height: 24px;

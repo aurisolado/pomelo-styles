@@ -38,13 +38,10 @@
 }
 
 .list .pan .wrapper .copy-icon {
-  height: 27px;
-  width: 27px;
-  margin-left: 5px;
-  color: #4500E3;
+  height: 0px;
+  width: 0px;
   position: absolute;
-  right: 75px;
-  top: -3px;
+  opacity: 0;
 }
 
 .list .pan .label {

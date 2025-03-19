@@ -48,7 +48,7 @@
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media (min-width: 600px) {
 
   .list .pan .wrapper .copy-icon {
   
@@ -63,11 +63,11 @@
   
 }
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) {
   
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+@media  (min-width: 1200px) {
 
   
 }
